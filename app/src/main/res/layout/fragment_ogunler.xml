@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context="com.example.fitnessApp.FragmentFoods">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/giris_text"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:text="Takvim Kalori Hesaplayıcı"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextTarih"
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:drawableRight="@drawable/date_month_24"
+            android:background="@drawable/giris_text"
+            android:focusable="false"
+            android:hint="DD/MM/YYYY"
+            android:inputType="date"
+            android:padding="8dp"
+            android:textColor="@color/renk2"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:background="@drawable/giris_text"
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/spinnerOgunSecimi"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#0B1D61" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:background="@drawable/giris_text"
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/spinnerYemekSecim"
+                android:layout_width="match_parent"
+                android:layout_height="65dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonYemek"
+                android:layout_width="150dp"
+                android:layout_height="61dp"
+                android:backgroundTint="@drawable/giris_text"
+                android:text="Öğünü Tüket"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonCalHesabi"
+                android:layout_width="150dp"
+                android:layout_height="61dp"
+                android:backgroundTint="@drawable/giris_text"
+                android:text="CL HESAPLA"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewCalBilgi"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/giris_text"
+            android:padding="15dp"
+            android:text="Kalori Hesap Metre"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

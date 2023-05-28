@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_spor"
+        android:icon="@drawable/gym_halter"
+        android:title="Spor" />
+    <item
+        android:id="@+id/fragment_ogunler"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Yemekler" />
+    <item
+        android:id="@+id/fragment_hesabim"
+        android:icon="@drawable/login_person"
+        android:title="Hesabım" />
+</menu>

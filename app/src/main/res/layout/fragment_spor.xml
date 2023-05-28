@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context="com.example.fitnessApp.FragmentSpor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/gym_hesapla"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:background="@drawable/giris_text"
+            android:text="WORK"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gym_SonucText"
+            android:layout_width="380dp"
+            android:layout_height="68dp"
+            android:background="@drawable/giris_text"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:background="@drawable/giris_text">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/gym_sinav" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="-100dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="center"
+                    android:text="ŞINAV"
+                    android:textColor="@color/renk2"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+                <EditText
+                    android:id="@+id/sinav_Adet"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="-100dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="center"
+                    android:hint="Adet Giriniz"
+                    android:textColor="@color/renk2"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:background="@drawable/giris_text">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/gym_halter" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="-110dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="center"
+                    android:text="HALTER"
+                    android:textColor="@color/renk2"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+                <EditText
+                    android:id="@+id/halter_Adet"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="-100dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="center"
+                    android:hint="Adet Giriniz"
+                    android:textColor="@color/renk2"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:background="@drawable/giris_text">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/gym_mekik" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="-100dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="center"
+                    android:text="MEKİK"
+                    android:textColor="@color/renk2"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+                <EditText
+                    android:id="@+id/mekik_Adet"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="-100dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="center"
+                    android:hint="Adet Giriniz"
+                    android:textColor="@color/renk2"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:background="@drawable/giris_text">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/gym_barfiks" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="-100dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="center"
+                    android:text="BARFİKS"
+                    android:textColor="@color/renk2"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+                <EditText
+                    android:id="@+id/barfiks_Adet"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="-100dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="center"
+                    android:hint="Adet Giriniz"
+                    android:textColor="@color/renk2"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
