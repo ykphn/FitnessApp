@@ -77,21 +77,21 @@ public class FragmentAccount extends Fragment {
             kacKilo = minBMI*(boy*boy);
             gerekliKilo = kacKilo - kilo;
             xkilo = Float.toString(gerekliKilo);
-            textViewBMIBilgi.setText("Vücut Kitle İndeksiniz="+vki+" Çok zayıfsınız. En az "+xkilo+" kilo almalısınız.");
+            textViewBMIBilgi.setText("Vücut Kitle İndeksiniz="+vki+" "+xkilo+" kilo almalısınız.");
         } else if (bmi>=18.5 && bmi<24.9) {
-            textViewBMIBilgi.setText("Vücut Kitle İndeksiniz="+vki+" Normal. İdeal kilonuzu koruyunuz");
+            textViewBMIBilgi.setText("Vücut Kitle İndeksiniz= "+vki+" İdeal. Kilonuzu koruyunuz");
         } else if (bmi>=24.9 && bmi<29.9) {
             maxBMI = (float) 24.9;
             kacKilo = maxBMI*(boy*boy);
             gerekliKilo = kilo - kacKilo;
             xkilo = Float.toString(gerekliKilo);
-            textViewBMIBilgi.setText("Vücut Kitle İndeksiniz="+vki+" Kilolusunuz. En az "+xkilo+" kilo vermelisin.");
+            textViewBMIBilgi.setText("Vücut Kitle İndeksiniz="+vki+" "+xkilo+" kilo vermelisin.");
         } else if (bmi>=30) {
             maxBMI = (float) 24.9;
             kacKilo = maxBMI*(boy*boy);
             gerekliKilo = kilo - kacKilo;
             xkilo = Float.toString(gerekliKilo);
-            textViewBMIBilgi.setText("Vücut Kitle İndeksiniz="+vki+" Obezsiniz. En az"+xkilo+" kilo vermeniz gerekiyor. Bir diyetisyene gitsen iyi olur.");
+            textViewBMIBilgi.setText("Vücut Kitle İndeksiniz="+vki+" Obezsiniz. "+xkilo+" kilo vermeniz gerekiyor.");
         }
     }
 }

@@ -51,6 +51,7 @@
             <Spinner
                 android:id="@+id/spinnerOgunSecimi"
                 android:layout_width="match_parent"
+                android:textColor="@color/black"
                 android:layout_height="65dp"
                 android:backgroundTint="#0B1D61" />
 
@@ -64,6 +65,7 @@
 
             <Spinner
                 android:id="@+id/spinnerYemekSecim"
+                android:textColor="@color/black"
                 android:layout_width="match_parent"
                 android:layout_height="65dp" />
 
@@ -78,8 +80,7 @@
                 android:id="@+id/buttonYemek"
                 android:layout_width="150dp"
                 android:layout_height="61dp"
-                android:backgroundTint="@drawable/giris_text"
-                android:text="Öğünü Tüket"
+                android:text="Eat"
                 android:textColor="@color/black"
                 android:textSize="17sp"
                 android:textStyle="bold" />
@@ -88,8 +89,7 @@
                 android:id="@+id/buttonCalHesabi"
                 android:layout_width="150dp"
                 android:layout_height="61dp"
-                android:backgroundTint="@drawable/giris_text"
-                android:text="CL HESAPLA"
+                android:text="Calorı"
                 android:textColor="@color/black"
                 android:textSize="17sp"
                 android:textStyle="bold" />
